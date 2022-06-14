@@ -1,0 +1,25 @@
+.background {
+  background-image: url("../../Images/Background1.jpg");
+  height: 545px;
+  background-position: right;
+  background-size: cover;
+}
+.stratforge-icon {
+  height: 38px;
+}
+.heading {
+  padding-left: 7px;
+  font-weight: 600;
+  color: #6a6262;
+  cursor: pointer;
+}
+.Navbar_Heading a {
+  color: black;
+  text-decoration: none;
+}
+.Navbar_Heading a:hover {
+  color: #8f050583;
+}
+.Navbar_Heading a:active {
+  color: #8f0505;
+}

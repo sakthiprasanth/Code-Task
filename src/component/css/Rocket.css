@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 10px;
+}
+.d-header {
+  text-align: center;
+  padding: 5px;
+  text-align: center;
+  width: 800px;
+  margin-left: 272px;
+  height: auto;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 2px #0000001a;
+}
+#btn {
+  margin-top: 20px;
+  background-color: #b21e28;
+  color: white;
+  font-size: 13px;
+  border: none;
+  padding: 10px;
+  border-radius: 14px;
+}
+#btn:hover {
+  background-color: brown;
+  cursor: pointer;
+  font-style: italic;
+}
+.d-header button {
+  background-color: #b21e28;
+  color: white;
+  font-size: 13px;
+  border: none;
+  padding: 10px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.d-header button:hover {
+  background-color: brown;
+  font-style: italic;
+}
+
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

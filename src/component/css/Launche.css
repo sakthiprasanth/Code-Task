@@ -1,0 +1,52 @@
+.launches-sec {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 90px;
+  margin-left: 54px;
+}
+.mission_name {
+  align-items: baseline;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .launches-sec {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 769px) and (max-width: 968px) {
+  .launches-sec {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 969px) and (max-width: 1200px) {
+  .launches-sec {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.btn1 {
+  margin-top: 20px;
+  background-color: #b21e28;
+  color: white;
+  font-size: 13px;
+  border: none;
+  padding: 10px;
+  border-radius: 14px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: brown;
+  font-style: italic;
+}
+.l_header {
+  text-align: center;
+  width: 800px;
+  height: auto;
+  margin-top: 76px;
+  padding: 22px;
+  margin-left: 244px;
+  box-shadow: 0px 0px 10px 2px #0000001a;
+}
+.l_header span {
+  font-weight: 600;
+}
